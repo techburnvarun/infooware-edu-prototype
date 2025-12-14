@@ -1,0 +1,15 @@
+# requirements.txt
+# Core dependencies for the Infooware Edu Prototype
+
+pdfplumber>=0.11.0          # PDF text and layout extraction
+nltk>=3.8                   # Text tokenization and basic NLP
+python-pptx>=1.0.2          # PowerPoint generation (requires slide.export() support)
+moviepy>=1.0.3              # Video assembly and effects
+pyttsx3>=2.90               # Offline text-to-speech narration
+Pillow>=10.0.0              # Image handling (used by moviepy and python-pptx)
+
+
+comtypes>=1.2.0
+
+# Optional / development
+# pytest>=8.0               # Uncomment for running tests

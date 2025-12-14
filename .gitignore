@@ -1,0 +1,12 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+output/
+examples/output/
+*.tmp
+*.wav
+frames/
+narration/
